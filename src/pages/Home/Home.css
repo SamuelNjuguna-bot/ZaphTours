@@ -1,0 +1,300 @@
+/* Hero Section */
+.hero {
+  min-width: 60vh;
+  min-height: 80vh;
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../../assets/hero-section/diani5.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.hero-tagline {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 5rem;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  color: white;
+}
+.motto {
+  color: white;
+  font-size: 3rem;
+  font-family: var(--primary-font);
+}
+@media screen and (max-width: 33.125em) {
+  .hero {
+    min-width: 30vh;
+  }
+}
+
+/* About-Us Section */
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  margin-top: 2rem;
+  min-height: 20vh;
+  border-radius: 0.5rem;
+}
+.about-us-heading {
+  font-family: inherit;
+  font-size: 4rem;
+}
+.about-us-exercept {
+  color: black;
+  font-size: 3rem;
+  font-family: inherit;
+  text-align: center;
+}
+
+/* Featured Destinations */
+.featured-header-titte {
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin-top: 3rem;
+  font-size: 4rem;
+  background-color: var(--color-blue);
+  padding: 3rem;
+}
+.featured-destinations {
+  display: flex;
+  background-color: var(--color-blue);
+  min-height: 70vh;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  margin-bottom: 6rem;
+}
+.feature1 {
+  height: 70vh;
+  border-radius: 10px;
+  width: 50vh;
+  background-color: white;
+  margin-bottom: 6rem;
+}
+.feature1 img {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  height: 80%;
+  width: 100%;
+}
+.feature1 p {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 700;
+  font-style: italic;
+}
+.div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 4rem;
+}
+.btn {
+  background-color: var(--color-blue);
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem auto;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 2rem;
+  border: none;
+  box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.55);
+  -webkit-box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.55);
+  transition: all 1s;
+}
+.btn:hover {
+  cursor: pointer;
+  color: var(--secondary-color);
+  background-color: aliceblue;
+  box-shadow: none;
+}
+/* testimonials */
+.featured-header-titte-testimonial {
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin-top: 3rem;
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+.testimonials {
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../../assets/testimonials/testimonials.jpg);
+  background-size: cover;
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-container {
+  display: flex;
+  gap: 3rem;
+  margin: 4rem 0;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 60vh;
+  border-radius: 1rem;
+  min-width: 90%;
+  box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 7px 10px 12px -7px rgba(0, 0, 0, 0.55);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.user-feedback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: white;
+  padding: 2rem;
+  padding-top: 0.2rem;
+  border-radius: 1rem;
+  min-height: 40vh;
+}
+.image-wrapper {
+  width: 10em;
+  height: 10em;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-wrapper img {
+  height: 100%;
+  width: 100%;
+  border-radius: inherit;
+  object-fit: cover;
+}
+.tst {
+  width: 50vh;
+  line-height: 3rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.user {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+@media screen and (max-width: 37.5em) {
+  .tst {
+    width: 30vh;
+  }
+}
+/* News Subscribe */
+.subscribe-heading {
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin-top: 3rem;
+  font-size: 2rem;
+  padding: 3rem;
+}
+.news-subscribe {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  background:
+    linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../assets/Subscribe/subscribe.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscribe {
+  padding: 2rem 15rem;
+  border: none;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  outline: none;
+  margin: 0;
+}
+.subscribe-btn {
+  border-top-right-radius: 1rem;
+  border: none;
+  border-bottom-right-radius: 1rem;
+  outline: none;
+  padding: 2rem 5rem;
+  background-color: red;
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  transition: all 1s;
+}
+.news-header-tagline {
+  color: white;
+  margin-bottom: 3rem;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.subscribe-btn:hover {
+  background-color: var(--color-blue);
+  cursor: pointer;
+}
+@media screen and (max-width: 56.25em) {
+  .news-header-tagline {
+    font-size: 2rem;
+  }
+  .subscribe {
+    padding: 1rem 10rem;
+    font-size: 2rem;
+  }
+  .subscribe-btn {
+    padding: 1rem 2rem;
+  }
+}
+@media screen and (max-width: 39.0625em) {
+  .news-header-tagline {
+    font-size: 1rem;
+  }
+  .subscribe {
+    padding: 1rem 5rem;
+    font-size: 2rem;
+  }
+  .subscribe-btn {
+    padding: 1rem 1rem;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 31.25em) {
+  .news-header-tagline {
+    font-size: 1rem;
+  }
+  .subscribe {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+  }
+  .subscribe-btn {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+  }
+}

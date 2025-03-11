@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --primary-color: #0000;
+  --secondary-color: #fa5407;
+  --light-grey: #ebe8e800;
+  --color-blue: #76abdf;
+  --primary-font: "Playfair Display", serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  background-color: #a1b3c5;
+}
+a {
+  text-decoration: none;
+}
