@@ -37,10 +37,14 @@
   height: 40vh;
 }
 .img-wrapper img {
+  transition: transform .3s ease-in-out;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+.img-wrapper img:hover{
+  transform: scale(1.2);
+} 
 .description-price p {
   font-size: 2rem;
   line-height: 2rem;

@@ -19,13 +19,19 @@
 }
 .card-image-wrapper {
   width: 70vh;
+ 
   height: auto;
 }
 .card-image-wrapper img {
   border-top-left-radius: 1rem;
+  transition: transform .3s ease-out ;
   border-top-right-radius: 1rem;
+
   width: 100%;
   object-fit: cover;
+}
+.card-image-wrapper img:hover{
+transform: scale(1.02);
 }
 .card-description {
   width: 70vh;

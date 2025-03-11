@@ -8,9 +8,12 @@ import img5 from "../../assets/featured-places/L.Nakuru.jpg";
 import img6 from "../../assets/featured-places/mt Lonogonot.jpeg";
 import img7 from "../../assets/testimonials/Susan.jpg";
 import img8 from "../../assets/testimonials/John Lee .jpg";
-
+import { FaRegStar } from "react-icons/fa";
+import { FaQuoteRight } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
 import "./Home.css";
 export default function Home() {
+
   return (
     <>
       <div className="hero">
@@ -76,9 +79,9 @@ function Featured({ description, price, url }) {
       <div className="feature1">
         <img src={url} alt="" />
         <p className="description2">{description}</p>
-        <p className="price2">Starting @ $ {price}</p>
+        <p className="price2">Starting @<strong> ${price}</strong></p>
         <div className="div">
-          <button className="btn">Book Now</button>
+          <button className="btn">Explore Now</button>
         </div>
       </div>
     </>
@@ -94,7 +97,14 @@ function Testimonies({ username, userProfilePic, feedback }) {
         </div>
         <div className="tst">
           <p className="user">{username}</p>
-          <p className="testimony">{feedback}</p>
+          <p className="testimony"><FaQuoteRight className="speech"/>{feedback}<FaQuoteRight className="speech"/></p>
+          <di className="rating">
+          <p className="rating">{<FaStar />}</p>
+          <p className="rating">{<FaStar />}</p>
+          <p className="rating">{<FaStar />}</p>
+          <p className="rating">{<FaStar />}</p>
+          <p className="rating">{<FaRegStar />}</p></di>
+
         </div>
       </div>
     </>

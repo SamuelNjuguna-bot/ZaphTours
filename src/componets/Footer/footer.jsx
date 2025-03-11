@@ -8,6 +8,7 @@ export function Footer() {
   return (
     <>
       <div className="footer-container">
+
         <div className="footer-logo-component">
           <Logo imageUrl={logo} headerTitle={"Zaph Tours"} />
         </div>
