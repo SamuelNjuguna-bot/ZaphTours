@@ -6,7 +6,7 @@ import img3 from "../../assets/featured-places/tsavo.jpg";
 import img4 from "../../assets/featured-places/Nairobi_National_Park.jpg";
 import img5 from "../../assets/featured-places/L.Nakuru.jpg";
 import img6 from "../../assets/featured-places/mt Lonogonot.jpeg";
-import img7 from "../../assets/testimonials/susan.jpg";
+import img7 from "../../assets/testimonials/Susan.jpg";
 import img8 from "../../assets/testimonials/John Lee .jpg";
 
 import "./Home.css";
